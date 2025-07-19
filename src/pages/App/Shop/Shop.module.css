@@ -1,0 +1,48 @@
+/*item-card{
+    background-color : darkblue;
+    padding : 10px;
+}
+
+.item-card img {
+    display : block;
+    margin : auto;
+}
+
+.item-card p{
+    text-align : center;
+}
+
+.itemContainer {
+    display : grid;
+    grid-template-columns : repeat(auto-fit, minmax(1fr, 300px));
+}*/
+.itemCard {
+  background-color: #000141;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.itemCard:hover {
+  transform: scale(1.03);
+}
+
+.itemCard img {
+  display: block;
+  margin: 0 auto 12px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.itemCard p {
+  text-align: center;
+  margin: 8px 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.itemContainer {
+  display: grid;
+  gap: 24px;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
